@@ -55,11 +55,12 @@ nav ul li a{
 }
 
 nav a:hover {
-    border: 1px solid #000;
+    border-bottom: 3px solid #880000;
+    color: #880000;
 }
 
 .active {
-    border: 1px solid #000;
+    border-bottom: 3px solid #000;
 }
 
 /* Hamburger menu */
