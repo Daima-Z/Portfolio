@@ -93,7 +93,6 @@ nav .menu-button i{
 aside > img {
     width: 100%;
     height: auto;
-    filter: grayscale(60%); 
     justify-items: center;
     float: left;
     position: relative;
@@ -101,17 +100,17 @@ aside > img {
 }
 
 #container {   
-    width: 35rem;
-    height: 30rem;
+    width: 40rem;
+    height: 40rem;
     padding: 10px;
-    background-color: rgba(255, 255, 255, 0.5);
+
     position: absolute;
-    top: 40rem;
-    right: 13rem;
+    top: 30rem;
+    right: 60rem;
     float: right;
 
 }
-
+/*
  #end-box img {
     width: 15rem;
     height: auto;
@@ -119,13 +118,30 @@ aside > img {
     right: 10rem;  
     top: 12rem;  
 }
+*/
+
+.portfolio {
+    font-size: 6rem;
+}
+
+.by {
+    font-size: 2rem;
+}
+
+.name {
+    font-size: 6rem;
+}
 
 #end-box h2 {
-    font-size: 8.5rem;
+    font-family: Roboto Condensed, sans-serif;
+    text-align: center;
+    font-weight: 1rem;
+    font-size: 3rem;
+    color: #fff;
     height: auto;
-    position: absolute;    
-    right: 4rem;  
-    top: 3rem;     
+    position: relative;    
+    left: 2rem;  
+    bottom: 10rem;     
 }
 
 /* styling the "about" page */
