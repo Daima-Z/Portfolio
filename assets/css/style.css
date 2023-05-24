@@ -135,13 +135,11 @@ aside > img {
 #end-box h2 {
     font-family: Roboto Condensed, sans-serif;
     text-align: center;
-    font-weight: 1rem;
-    font-size: 3rem;
     color: #fff;
-    height: auto;
     position: relative;    
     left: 2rem;  
-    bottom: 10rem;     
+    bottom: 10rem;   
+    font-style: italic;  
 }
 
 /* styling the "about" page */
@@ -158,6 +156,7 @@ aside > img {
 h3 {
     font-family: Roboto Condensed, sans-serif;
     font-size: 3rem;
+    font-style: italic; 
 }
 
 p {
@@ -169,6 +168,20 @@ p {
 #material {
     text-decoration: none underline;
     color: inherit;
+}
+
+/* Thesis page */
+
+.thesis-display {
+    width: 35rem;
+    height: auto;
+    float: left;
+    padding: 1rem 1rem 0 0;
+}
+
+.thesis-display:hover {
+	transform: scale(1.5);
+	transition: .5s transform;
 }
 
 /* photos*/
