@@ -184,66 +184,32 @@ p {
 	transition: .5s transform;
 }
 
-/* photos*/
+/* assignments */
 
-.drawing {
-    width: 25rem;
-    height: auto;
-    float: left;
-    padding: 1rem 1rem 0 0;
+main
+{
+		margin-left:  120px;
+}
+.box
+{
+		display: block;
+		float: left;
+		width: 20%;
+		padding: 10px;
+		padding-left: 12px;
+		border: 50%;
+		margin: 0px 0px 50px 0px;
 }
 
-.drawing:hover {
-	transform: scale(1.5);
-	transition: .5s transform;
+
+
+.gallary img:hover
+{
+		transform: scale(1.1,1.1);
+		transition: .4s transform;
+		border-radius: 5px;
 }
 
-.macrame-decor {
-    width: 25rem;
-    height: auto;
-    float: left;
-    padding: 1rem 1rem 0 0;
-}
-
-.wall-hanging2 {
-    width: 25rem;
-    height: auto;
-    float: right;
-    padding: 1rem 0 0 1rem;
-}
-
-.wall-hanging1 {
-    width: 25rem;
-    height: auto;
-    float: left;
-    padding: 1rem 1rem 0 0;
-}
-
-.macrame-furniture {
-    width: 25rem;
-    height: auto;
-    float: right;
-    padding: 1rem 0 0 1rem;
-}
-
-.macrame-wings {
-    width: 25rem;
-    height: auto;
-    float: right;
-    padding: 1rem 0 0 1rem;
-}
-
-.macrame-thread {
-    width: 25rem;
-    height: auto;
-    float: left;
-    padding: 1rem 1rem 0 0;
-}
-
-#images:hover {
-	transform: scale(1.05);
-	transition: .5s transform;
-}
 
 /* Form */
 
