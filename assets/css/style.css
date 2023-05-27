@@ -159,6 +159,17 @@ h3 {
     font-style: italic; 
 }
 
+.drawing {
+    width: 35rem;
+    height: auto;
+
+}
+
+.drawing:hover {
+	transform: scale(1.05);
+	transition: .5s transform;
+}
+
 p {
     font-family: Roboto Flex, sans-serif;
     font-size: 2rem;
@@ -175,12 +186,11 @@ p {
 .thesis-display {
     width: 35rem;
     height: auto;
-    float: left;
-    padding: 1rem 1rem 0 0;
+
 }
 
 .thesis-display:hover {
-	transform: scale(1.5);
+	transform: scale(1.05);
 	transition: .5s transform;
 }
 
